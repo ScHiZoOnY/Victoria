@@ -1,0 +1,23 @@
+# шоколадное мороженое
+
+- type: flavor
+  id: chocolateicecream
+  flavorType: Complex
+  description: flavor-complex-chocolate-ice-cream
+
+- type: reagent
+  id: ChocolateIceCream
+  name: reagent-name-chocolate-ice-cream
+  parent: BaseSoda
+  desc: reagent-desc-ice-cream
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: chocolateicecream
+  color: "#7B3F00"
+  recognizable: true
+  metamorphicSprite:
+    sprite: Victoria/IceCream/chocolateicecream.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: true
+  fizziness: 0
